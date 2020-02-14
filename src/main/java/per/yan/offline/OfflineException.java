@@ -8,8 +8,6 @@ public class OfflineException extends RuntimeException {
 
     private static final long serialVersionUID = -8502385996267165615L;
 
-    private String message;
-
     public OfflineException() {
         super();
     }
